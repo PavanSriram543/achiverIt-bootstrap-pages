@@ -1,0 +1,27 @@
+.mt-mb {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.pd-25-125 {
+  padding: 25px 125px;
+}
+.ct-card:hover .card {
+  transition: all 0.5s ease 0s;
+  transform: scale(1.2);
+}
+.text-indigo {
+  color: indigo;
+}
+.text-cyan {
+  color: cyan;
+}
+.text-blue {
+  color: #0c5397;
+}
+.text-light-blue {
+  color: lightblue;
+}
+.text-light-green {
+  color: lightgreen;
+}

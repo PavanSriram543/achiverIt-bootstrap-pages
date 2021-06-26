@@ -1,0 +1,7 @@
+.jumbotron {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../bg-images/edureka-business.png");
+  padding: 80px 150px;
+}

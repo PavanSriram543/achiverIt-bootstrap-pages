@@ -1,0 +1,7 @@
+.navbar-light .nav-item:hover {
+  background: orangered;
+  border-radius: 50px;
+}
+.navbar-light .nav-item:hover .nav-link {
+  color: white;
+}

@@ -1,0 +1,28 @@
+.topcard {
+  min-height: 155px;
+  background: #fbfbfbd1;
+}
+.f-14 {
+  font-size: 14px;
+}
+.top {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../bg-images/12490.jpeg");
+}
+.c1:hover {
+  background: linear-gradient(to right, #2c3e50, #2980b9);
+  transition: all 0.5s ease 0s;
+  transform: scale(1.1);
+}
+
+.c2:hover {
+  background: linear-gradient(to right, #f7b733, #ff4700);
+  transition: all 0.5s ease 0s;
+  transform: scale(1.1);
+}
+.c1:hover p,
+.c2:hover p {
+  color: #fff !important;
+}

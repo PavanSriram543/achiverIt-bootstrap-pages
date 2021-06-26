@@ -1,0 +1,11 @@
+.icon {
+  padding-bottom: 10px;
+  min-width: 100px;
+  max-width: 100px;
+}
+.edge {
+  cursor: pointer;
+}
+.edge:hover {
+  box-shadow: 0 0 15px 1px rgb(0 0 0 / 15%);
+}

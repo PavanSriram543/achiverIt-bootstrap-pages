@@ -1,0 +1,17 @@
+.company-img:hover {
+  transition: all 0.5s ease 0s;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1);
+  transform: scale(1.1);
+}
+.company-img {
+  border-radius: 3px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../bg-images/top.jpg");
+}
+.sub-imgs {
+  height: 50%;
+  width: 80%;
+}

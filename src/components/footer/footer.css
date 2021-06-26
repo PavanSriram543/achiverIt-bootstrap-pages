@@ -1,0 +1,36 @@
+.footer {
+  background: black;
+}
+.list-unstyled a {
+  color: white;
+  text-decoration: none;
+}
+.list-unstyled a:hover {
+  color: orangered;
+}
+.social-icons {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid #fff !important;
+}
+/* sticky nav bar */
+.second-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 15px 1px rgb(0 0 0 / 15%);
+  background: #fff;
+  z-index: 13;
+}
+/* fixed footer */
+.fixed-footer {
+  position: fixed;
+  background: black;
+  color: #fff;
+  bottom: -20px;
+}
+.span-text {
+  position: relative;
+  top: -10px;
+}

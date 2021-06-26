@@ -1,0 +1,7 @@
+.bg-grade-blue {
+  background: linear-gradient(to left, #0052d4, #65c7f7, #9cecfb);
+}
+.contact-btn:hover {
+  background-color: orangered !important;
+  color: white;
+}
