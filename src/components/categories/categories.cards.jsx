@@ -54,6 +54,8 @@ class CategorieCards extends Component {
       ],
     };
   }
+
+  update = () => {};
   render() {
     return (
       <div className="col-md-12 plr">
@@ -62,6 +64,21 @@ class CategorieCards extends Component {
           {this.state.cards.map((card) => (
             <CategorieCard key={card.id} icon={card.icon} p={card.p} />
           ))}
+          {/* <button
+            onClick={() =>
+              this.setState({
+                cards: [
+                  {
+                    icon: "fab fa-python fa-3x text-light-green",
+                    p: "Python",
+                    id: 11,
+                  },
+                ],
+              })
+            }
+          >
+            update
+          </button> */}
         </div>
       </div>
     );

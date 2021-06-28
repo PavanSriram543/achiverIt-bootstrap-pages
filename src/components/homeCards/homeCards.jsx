@@ -14,7 +14,7 @@ class Homecards extends Component {
         {
           developer: "ANGULAR developer",
           id: 2,
-          class: "card-2",
+          color: "card-2",
         },
         {
           developer: "REACTJS developer",
@@ -29,7 +29,7 @@ class Homecards extends Component {
         {this.state.cards.map((card) => (
           <HomeCard
             key={card.id}
-            className={card.class}
+            color={card.color}
             developer={card.developer}
           />
         ))}

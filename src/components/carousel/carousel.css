@@ -5,3 +5,31 @@
 .carousel-indicators {
   bottom: 40px;
 }
+.carousel-item {
+  height: 400px;
+}
+.item-1 {
+  background-image: url("https://www.achieversit.com/assets/images/angular_training.jpg");
+}
+
+.item-2 {
+  background-image: url("https://www.achieversit.com/assets/images/react_training.jpg");
+}
+.item-3 {
+  background-image: url("https://www.achieversit.com/assets/images/react_training.jpg");
+}
+.item-4 {
+  background-image: url("https://www.achieversit.com/assets/images/react_training.jpg");
+}
+.item-5 {
+  background-image: url("https://www.achieversit.com/assets/images/react_training.jpg");
+}
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5 {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
