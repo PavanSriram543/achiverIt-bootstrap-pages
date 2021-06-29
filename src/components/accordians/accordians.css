@@ -1,0 +1,22 @@
+.accordion-button {
+  color: white !important;
+  background-image: url(../../bg-images/back-6.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  cursor: pointer;
+}
+.accordion-body {
+  background-image: url(../../bg-images/back-4.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.accordion-button:after {
+  content: "\f102";
+  font-size: 25px;
+  height: auto;
+  font-family: "FontAwesome";
+  background-image: none !important;
+  transition: auto;
+}

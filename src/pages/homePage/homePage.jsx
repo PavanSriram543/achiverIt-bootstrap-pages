@@ -13,6 +13,7 @@ import TopCardCollection from "../../components/why.we.are.top/topCardCollection
 import ClientCards from "../../components/ourcrporateclients/clients.cards";
 import "./homePage.styles.css";
 import BusinessBaner from "../../components/businessbaner/businessbaner";
+import Accordians from "../../components/accordians/accordians";
 
 const HomePage = () => {
   return (
@@ -27,6 +28,7 @@ const HomePage = () => {
       <TopCardCollection />
       <TrainingCards />
       <ItProcess />
+      <Accordians />
       <BusinessBaner />
       <ClientCards />
       <KnowUs />

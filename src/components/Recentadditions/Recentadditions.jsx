@@ -16,12 +16,8 @@ class Recentadditions extends Component {
       <div className="col-md-12 plr mt-4">
         <div className="row m-0">
           <h3 className="pl-20">RECENT ADDITIONS</h3>
-          {this.state.cards.map((card) => (
-            <CourseCard
-              image={card.image}
-              key={card.id}
-              developer={card.developer}
-            />
+          {this.state.cards.map(({ id, ...CourseCardotherProps }) => (
+            <CourseCard key={id} {...CourseCardotherProps} />
           ))}
         </div>
       </div>
